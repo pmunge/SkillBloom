@@ -1,2 +1,20 @@
-node_modules
-myvirtualenv
+# Ignore virtual environment
+env/
+venv/
+
+# Ignore Django migrations
+**/migrations/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore Node.js dependencies
+frontend/node_modules/
+frontend/dist/
+
